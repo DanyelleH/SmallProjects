@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
+#buttonIcon {
+    height:20px;
+    width: 20px;
+}
+body {
+    align-content: center;
+}
+#attributes {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right:25%
+}
+h3 {
+    font-variant: initial ;
+    text-transform: capitalize;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+}
