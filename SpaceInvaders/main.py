@@ -11,7 +11,7 @@ class Game:
         self._display = pygame.display.set_mode((800,800)) #screen size
         self._clock = pygame.time.Clock()# actively tracks FPS
         self._channels = pygame.mixer.set_num_channels(2)
-        self._background_music = pygame.mixer.Sound(file="/Users/danyelleridley/Documents/Learning/pygame/SpaceInvaders/Sounds/retro-background-music.mp3")
+        self._background_music = pygame.mixer.Sound(file="SpaceInvaders/Sounds/retro-background-music.mp3")
         pygame.display.set_caption("Space Invaders") # allows changing of the test of the window
         pygame.mixer.Channel(0).play(self._background_music)
 
@@ -19,7 +19,7 @@ class Game:
         self._space_surface = pygame.Surface((900,800))
 
         #createSpaceShip
-        self._space_ship = SpaceShip("/Users/danyelleridley/Documents/Learning/pygame/SpaceInvaders/assets/SpaceShip.png", 400,800)
+        self._space_ship = SpaceShip("/SpaceInvaders/assets/SpaceShip.png", 400,800)
         self._ship_sprite_group = pygame.sprite.GroupSingle()
         self._ship_sprite_group.add(self._space_ship)
 
