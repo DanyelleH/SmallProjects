@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', getFetch);
 async function getFetch() {
     const isChecked = document.querySelector("#shinyCheck").checked
-    const choice = document.querySelector('input').value
+    const choice = document.querySelector('input').value.toLowerCase()
     const url = 'https://pokeapi.co/api/v2/pokemon/'+choice
     
     let data = await fetch(url);
