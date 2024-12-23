@@ -1,0 +1,1 @@
+Implementation of a pokemon viewing frontend that utilized a pokemon API. It takes in user input (pokemon name), and returns the corresponding pokemons image, with the option ofviewing a shiny version.
