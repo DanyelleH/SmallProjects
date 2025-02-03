@@ -1,1 +1,1 @@
-Basic implementation of a functional calculatior frontend.
+Basic implementation of a functional calculator
